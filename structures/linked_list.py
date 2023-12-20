@@ -26,4 +26,19 @@ class LinkedList:
             self.tail = new_node
         self.lenght +=1
         #return True    
-        
+    def pop(self): #O(n)
+        if self.lenght == 0:
+            return None
+        if self.lenght == 1:
+            self.head = None
+            self.tail = None
+        else:
+            temp = self.head
+            before = self.head
+            while temp.next is not None:
+                before = temp
+                temp = temp.next
+            self.tail = before
+            self.tail.next = None
+        self.lenght -= 1
+        return temp # which returns the node that we just removed
