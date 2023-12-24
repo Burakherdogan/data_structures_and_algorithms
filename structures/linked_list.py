@@ -65,7 +65,7 @@ class LinkedList:
         self.lenght -=1
         if self.lenght == 0:
             self.tail = None
-        return temp.value
+        return temp
     ##########################################
     def get(self, index): #O(n)
         if index < 0 or index >= self.lenght:
