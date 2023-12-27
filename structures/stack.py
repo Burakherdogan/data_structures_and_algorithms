@@ -27,7 +27,7 @@ class Stack: #has LIFO
             self.top = new_node
         self.height += 1
     ##########################################
-    def pop(self):
+    def pop(self): #O(1)
         if self.top is None:
             return None
         temp = self.top
