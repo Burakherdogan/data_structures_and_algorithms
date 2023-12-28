@@ -10,26 +10,31 @@ This repository contains various implementations of data structures and algorith
 
 This file includes a simple implementation of the bubble sort algorithm.
 
+### Linked List via Class
+- `structures/linked_list.py`
+
+Implementation of a linked list using class.
+
 ### Queue via Linked List
-- `algorithms/structures/queue_via_ll.py`
+- `structures/queue_via_ll.py`
 
 
 Implementation of a queue using a linked list.
 
 ### Palindrome Check for Doubly Linked List
-- `algorithms/dll_palindrome.py`
+- `dll_palindrome.py`
 
 
 Checks for palindrome in a doubly linked list.
 
 ### Reverse Doubly Linked List
-- `algorithms/dll_reverse.py`
+- `dll_reverse.py`
 
   
 Reverses a doubly linked list.
 
 ### Find Middle Node
-- `algorithms/find_middle_node.py`
+- `find_middle_node.py`
 
   
 Algorithm to find the middle node of a linked list.
