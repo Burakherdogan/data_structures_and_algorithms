@@ -10,6 +10,8 @@ This repository contains various implementations of data structures and algorith
 
 This file includes a simple implementation of the bubble sort algorithm.
 
+##  Data Structures
+
 ### Linked List via Class
 - `structures/linked_list.py`
 
@@ -20,6 +22,8 @@ Implementation of a linked list using class.
 
 
 Implementation of a queue using a linked list.
+
+## Exercises
 
 ### Palindrome Check for Doubly Linked List
 - `dll_palindrome.py`
